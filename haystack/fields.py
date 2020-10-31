@@ -153,7 +153,7 @@ class SearchField(object):
                     )
 
             if callable(current_object):
-                values.append(current_object())
+                values.append(current_object)
             else:
                 values.append(current_object)
 
